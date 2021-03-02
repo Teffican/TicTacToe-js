@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.container {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1030px;
+}
+
+.line {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    transition: all .3s;
+    cursor: pointer;
+    font-size: 85px;
+    text-align: center;
+}
+
+.box:hover {
+    background-color: silver;
+}
